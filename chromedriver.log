@@ -1,0 +1,315 @@
+[1732685824.799][INFO]: Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 28479
+[1732685824.799][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1732685824.828][INFO]: ChromeDriver was started successfully on port 28479
+[1732685825.261][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "goog:loggingPrefs": {
+         "browser": "ALL",
+         "driver": "ALL"
+      }
+   }
+}
+[1732685825.263][INFO]: Browser search. Trying... C:\Users\goura\.cache\selenium\chromedriver\win64\131.0.6778.85\chrome.exe
+[1732685825.263][INFO]: Browser search. Trying... C:\Users\goura\.cache\selenium\chromedriver\win64\131.0.6778.85\chrome.exe
+[1732685825.263][INFO]: Browser search. Trying... C:\Users\goura\.cache\selenium\chromedriver\win64\131.0.6778.85\chromium.exe
+[1732685825.266][INFO]: Browser search. Trying... C:\Users\goura\AppData\Local\Google\Chrome\Application\chrome.exe
+[1732685825.266][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1732685825.266][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1732685825.268][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1732685825.269][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1732685825.270][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1732685825.270][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1732685825.271][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\goura\AppData\Local\Temp\scoped_dir2628_1130895088" data:,
+[1732685826.211][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1732685826.223][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "131.0.6778.86",
+      "chrome": {
+         "chromedriverVersion": "131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})",
+         "userDataDir": "C:\\Users\\goura\\AppData\\Local\\Temp\\scoped_dir2628_1130895088"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56810"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f450bd64351523dbac81d3dba7c1b69d"
+}
+[1732685826.296][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND MaximizeWindow {
+}
+[1732685826.296][INFO]: Waiting for pending navigations...
+[1732685826.301][INFO]: Done waiting for pending navigations. Status: ok
+[1732685826.330][INFO]: Waiting for pending navigations...
+[1732685826.331][INFO]: Done waiting for pending navigations. Status: ok
+[1732685826.331][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE MaximizeWindow {
+   "height": 832,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1732685826.343][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1732685826.344][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE SetTimeouts
+[1732685826.367][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND Navigate {
+   "url": "https://www.amazon.in"
+}
+[1732685826.367][INFO]: Waiting for pending navigations...
+[1732685826.369][INFO]: Done waiting for pending navigations. Status: ok
+[1732685827.778][INFO]: Waiting for pending navigations...
+[1732685830.772][INFO]: Done waiting for pending navigations. Status: ok
+[1732685830.772][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE Navigate
+[1732685830.776][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND GetUrl {
+}
+[1732685830.776][INFO]: Waiting for pending navigations...
+[1732685830.777][INFO]: Done waiting for pending navigations. Status: ok
+[1732685830.795][INFO]: Waiting for pending navigations...
+[1732685830.795][INFO]: Done waiting for pending navigations. Status: ok
+[1732685830.795][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE GetUrl "https://www.amazon.in/"
+[1732685830.815][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND Navigate {
+   "url": "https://www.amazon.in"
+}
+[1732685830.815][INFO]: Waiting for pending navigations...
+[1732685830.816][INFO]: Done waiting for pending navigations. Status: ok
+[1732685831.082][INFO]: Waiting for pending navigations...
+[1732685832.417][INFO]: Done waiting for pending navigations. Status: ok
+[1732685832.417][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE Navigate
+[1732685832.428][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#twotabsearchtextbox"
+}
+[1732685832.428][INFO]: Waiting for pending navigations...
+[1732685832.642][INFO]: Done waiting for pending navigations. Status: ok
+[1732685832.755][INFO]: Waiting for pending navigations...
+[1732685832.765][INFO]: Done waiting for pending navigations. Status: ok
+[1732685832.765][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.C7258B878F4B7C9CE96924652C57B371.e.134"
+}
+[1732685832.780][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND TypeElement {
+   "id": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.C7258B878F4B7C9CE96924652C57B371.e.134",
+   "text": "laptop",
+   "value": [ "l", "a", "p", "t", "o", "p" ]
+}
+[1732685832.780][INFO]: Waiting for pending navigations...
+[1732685832.785][INFO]: Done waiting for pending navigations. Status: ok
+[1732685833.032][INFO]: Waiting for pending navigations...
+[1732685833.047][INFO]: Done waiting for pending navigations. Status: ok
+[1732685833.047][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE TypeElement
+[1732685836.067][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#nav\\-search\\-submit\\-button"
+}
+[1732685836.067][INFO]: Waiting for pending navigations...
+[1732685836.069][INFO]: Done waiting for pending navigations. Status: ok
+[1732685836.082][INFO]: Waiting for pending navigations...
+[1732685836.084][INFO]: Done waiting for pending navigations. Status: ok
+[1732685836.085][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.C7258B878F4B7C9CE96924652C57B371.e.201"
+}
+[1732685836.092][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND ClickElement {
+   "id": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.C7258B878F4B7C9CE96924652C57B371.e.201"
+}
+[1732685836.092][INFO]: Waiting for pending navigations...
+[1732685836.094][INFO]: Done waiting for pending navigations. Status: ok
+[1732685836.289][INFO]: Waiting for pending navigations...
+[1732685838.587][INFO]: Done waiting for pending navigations. Status: ok
+[1732685838.587][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE ClickElement
+[1732685843.605][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND FindElements {
+   "using": "xpath",
+   "value": "(//span[@class='a-size-medium a-color-base a-text-normal'])"
+}
+[1732685843.605][INFO]: Waiting for pending navigations...
+[1732685843.608][INFO]: Done waiting for pending navigations. Status: ok
+[1732685843.625][INFO]: Waiting for pending navigations...
+[1732685843.626][INFO]: Done waiting for pending navigations. Status: ok
+[1732685843.626][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.525"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.530"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.531"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.532"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.533"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.534"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.535"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.536"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.537"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.538"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.539"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.540"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.541"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.542"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.543"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.544"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.545"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.546"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.547"
+}, "..." ]
+[1732685843.636][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND GetElementText {
+   "id": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.525"
+}
+[1732685843.636][INFO]: Waiting for pending navigations...
+[1732685843.638][INFO]: Done waiting for pending navigations. Status: ok
+[1732685843.653][INFO]: Waiting for pending navigations...
+[1732685843.654][INFO]: Done waiting for pending navigations. Status: ok
+[1732685843.654][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE GetElementText "Acer Chromebook CB315-4H Intel Celeron N4500 (Chrome OS/8 GB RAM/128 GB/WiFi 6) 39.6 cm (15.6\") Full HD, Silver, 1.6 KG, 3 Months Google One AI Premium Plan with Gemini Advanced & 2TB Cloud Storage"
+[1732685843.656][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND GetElementText {
+   "id": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.177E75D52A6E9CD47237685C16FC11E6.e.530"
+}
+[1732685843.656][INFO]: Waiting for pending navigations...
+[1732685843.657][INFO]: Done waiting for pending navigations. Status: ok
+[1732685843.667][INFO]: Waiting for pending navigations...
+[1732685843.668][INFO]: Done waiting for pending navigations. Status: ok
+[1732685843.668][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE GetElementText "Dell 15 Thin & Light Laptop, Intel Core i5-1235U Processor/16GB DDR4+512GB SSD/Intel UHD Graphics/15 Inch (38cm) FHD Display/Windows 11 + MSO'21/15 Month McAfee/Carbon Black/Spill Resistant KB/1.69kg"
+[1732685843.677][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND Navigate {
+   "url": "https://www.amazon.in"
+}
+[1732685843.677][INFO]: Waiting for pending navigations...
+[1732685843.679][INFO]: Done waiting for pending navigations. Status: ok
+[1732685844.022][INFO]: Waiting for pending navigations...
+[1732685845.298][INFO]: Done waiting for pending navigations. Status: ok
+[1732685845.299][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE Navigate
+[1732685845.309][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[normalize-space()='Electronics']"
+}
+[1732685845.309][INFO]: Waiting for pending navigations...
+[1732685845.317][INFO]: Done waiting for pending navigations. Status: ok
+[1732685845.341][INFO]: Waiting for pending navigations...
+[1732685845.354][INFO]: Done waiting for pending navigations. Status: ok
+[1732685845.354][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.1D61CD79804CF73AD1BBD0E0BAFCD42E.e.647"
+}
+[1732685845.373][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND ClickElement {
+   "id": "f.9B66B93F6F5D3BD6C73A9E80791E6688.d.1D61CD79804CF73AD1BBD0E0BAFCD42E.e.647"
+}
+[1732685845.374][INFO]: Waiting for pending navigations...
+[1732685845.404][INFO]: Done waiting for pending navigations. Status: ok
+[1732685845.751][INFO]: Waiting for pending navigations...
+[1732685848.585][INFO]: Done waiting for pending navigations. Status: ok
+[1732685848.585][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE ClickElement
+[1732685853.601][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND GetUrl {
+}
+[1732685853.601][INFO]: Waiting for pending navigations...
+[1732685853.604][INFO]: Done waiting for pending navigations. Status: ok
+[1732685853.608][INFO]: Waiting for pending navigations...
+[1732685853.609][INFO]: Done waiting for pending navigations. Status: ok
+[1732685853.609][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE GetUrl "https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics"
+[1732685853.616][INFO]: [f450bd64351523dbac81d3dba7c1b69d] COMMAND CloseWindow {
+}
+[1732685853.927][INFO]: [f450bd64351523dbac81d3dba7c1b69d] RESPONSE CloseWindow [  ]
