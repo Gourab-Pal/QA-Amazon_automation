@@ -47,3 +47,17 @@ The following test cases were automated using **Selenium** and **XPath**:
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Gourab-Pal/QA-Amazon_automation.git
+2. Install dependencies:  
+    - **Selenium WebDriver**  
+    - **ChromeDriver** (or your browser's driver)  
+
+3. Run the test scripts using your favorite IDE or CLI.  
+
+---
+
+## 📜 **Learn More About XFlix**  
+
+- [📘 XFlix Documentation](#) _([Project website](https://www.crio.do/learn/portfolio/gourab-pal-gpal/ME_XSEARCH1/))_  
+- [🌐 Live Website](#) _([Amazon website](https://www.amazon.in/))_  
+
+---
