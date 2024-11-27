@@ -36,7 +36,7 @@ The following test cases were automated using **Selenium** and **XPath**:
 
 ## 📸 **Snapshots of the Work**  
 ### **Amazon Homepage Automation**  
-![Homepage Automation](amazon_homepage.png)  
+![Homepage Automation](amazon_aut.png)  
 
 ### **Search Feature in Action**  
 ![Search Automation](amazon_search.png)  
